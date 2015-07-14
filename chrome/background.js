@@ -10,11 +10,8 @@ function clearCache () {
             cache: true
         },
         function () {
-            chrome.notifications.create({
-                type: 'basic',
-                iconUrl: 'icon.png',
-                title: 'Cache Cleared',
-                message: 'Refresh Page'
+            chrome.tabs.reload({
+                bypassCache: true
             });
         }
     );
