@@ -1,10 +1,12 @@
 {
   "title": "Easy Clear Cache",
   "name": "easyclearcache",
-  "version": "0.2.0",
+  "id": "easyclearcache@github.com",
+  "version": "0.3.0",
   "description": "One click to clear browser cache",
   "main": "index.js",
   "author": "Christian Murphy",
+  "homepage": "https://github.com/ChristianMurphy/easy-clear-cache",
   "permissions": {
       "multiprocess": true
   },
