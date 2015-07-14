@@ -1,10 +1,13 @@
 {
   "title": "Easy Clear Cache",
   "name": "easyclearcache",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "One click to clear browser cache",
   "main": "index.js",
   "author": "Christian Murphy",
+  "permissions": {
+      "multiprocess": true
+  },
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
