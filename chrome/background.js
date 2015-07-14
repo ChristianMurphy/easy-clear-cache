@@ -7,12 +7,7 @@ function clearCache () {
         },
         {
             appcache: true,
-            cache: true,
-            cookies: true,
-            fileSystems: true,
-            indexedDB: true,
-            localStorage: true,
-            webSQL: true
+            cache: true
         },
         function () {
             chrome.notifications.create({
