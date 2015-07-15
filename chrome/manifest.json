@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Easy Clear Cache",
   "description": "This extension creates an easy button to clear browser cache",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "background": {
     "persistent": false,
     "page": "background.html"
